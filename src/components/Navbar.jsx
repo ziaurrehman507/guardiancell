@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { useState } from 'react';
+import img from '../assets/WhatsApp_Image_2026-02-09_at_3.38.32_AM-removebg-preview.png'
 
 const Navbar = () => {
   const { getCartCount } = useCart();
@@ -16,7 +17,7 @@ const Navbar = () => {
           {/* Logo Section */}
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="flex items-center justify-center w-12 h-12 rounded-xl  from-teal-500 to-teal-600  group-hover:scale-110 transition-transform duration-300">
-              <img src="./public/WhatsApp_Image_2026-02-09_at_3.38.32_AM-removebg-preview.png" alt="" />
+              <img src={img} alt="" />
             </div>
             <div className="flex flex-col">
               <span className="text-2xl font-bold text-teal-600">ShopHub</span>
