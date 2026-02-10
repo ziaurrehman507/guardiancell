@@ -10,7 +10,7 @@ const Home = () => {
   const slides = [
     {
       id: 1,
-      title: 'Welcome to ShopHub',
+      title: 'Welcome to Guardiancell',
       subtitle: 'Premium Smartphones',
       description: 'Shop the latest mobile phones at unbeatable prices',
       image: 'https://assets.spares.nu/products/featured/GH82-27444A_SPiBt9SXj3jDXM0xpeAeK.png',
