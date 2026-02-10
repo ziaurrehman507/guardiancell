@@ -55,7 +55,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Slider */}
-<section className="relative h-[500px] sm:h-[600px] md:h-[700px] lg:h-[700px] overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
+<section className="relative h-[600px] sm:h-[600px] md:h-[700px] lg:h-[700px] overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
   <div className="absolute inset-0 bg-grid-pattern opacity-[0.02]"></div>
   
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
@@ -166,14 +166,14 @@ const Home = () => {
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-full h-[280px] sm:h-[350px] md:h-[420px] lg:h-[520px] object-cover transform transition-transform duration-1000 hover:scale-105"
+                  className="w-full  sm:h-[350px] md:h-[420px] lg:h-[520px] object-cover transform transition-transform duration-1000 hover:scale-105"
                 />
                 {/* Image overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
               </div>
               
               {/* Professional Floating Card */}
-              <div className="absolute -bottom-3 -right-3 sm:-bottom-4 sm:-right-4 lg:-bottom-5 lg:-right-5 bg-white rounded-xl sm:rounded-2xl shadow-xl sm:shadow-2xl p-3 sm:p-4 lg:p-5 flex items-center space-x-2 sm:space-x-3 lg:space-x-4 border border-gray-100">
+              <div className="absolute -bottom-3 -right-3 sm:-bottom-4 sm:-right-4 lg:-bottom-5 lg:-right-5 bg-white rounded-xl sm:rounded-2xl shadow-xl sm:shadow-2xl p-2 sm:p-4 lg:p-5 flex items-center space-x-2 sm:space-x-3 lg:space-x-4 border border-gray-100">
                 <div className="bg-gradient-to-br from-teal-50 to-emerald-50 p-2 sm:p-2.5 lg:p-3.5 rounded-lg sm:rounded-xl">
                   <div className="w-7 h-7 sm:w-8 sm:h-8 lg:w-10 lg:h-10 flex items-center justify-center bg-gradient-to-r from-teal-500 to-emerald-500 rounded-md sm:rounded-lg text-white font-bold text-sm sm:text-base">
                     {index + 1}
