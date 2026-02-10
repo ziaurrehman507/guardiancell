@@ -3,13 +3,13 @@ const About = () => {
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-4xl mx-auto px-4">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
-          About ShopHub
+          About Guardiancell
         </h1>
 
         <div className="bg-white rounded-lg shadow-md p-8 mb-8">
           <h2 className="text-2xl font-bold text-primary mb-4">Our Story</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Welcome to ShopHub, your trusted online shopping destination. We are
+            Welcome to Guardiancell, your trusted online shopping destination. We are
             committed to providing you with the best products at competitive prices,
             combined with exceptional customer service.
           </p>

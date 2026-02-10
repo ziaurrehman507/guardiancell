@@ -20,7 +20,7 @@ const Navbar = () => {
               <img src={img} alt="" />
             </div>
             <div className="flex flex-col">
-              <span className="text-2xl font-bold text-teal-600">ShopHub</span>
+              <span className="text-2xl font-bold text-teal-600">Guardiancell</span>
               <span className="text-xs text-gray-500 hidden sm:block">Premium Shopping</span>
             </div>
           </Link>
