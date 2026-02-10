@@ -14,6 +14,9 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
+
+
+          
           {/* Logo Section */}
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="flex items-center justify-center w-12 h-12 rounded-xl  from-teal-500 to-teal-600  group-hover:scale-110 transition-transform duration-300">
