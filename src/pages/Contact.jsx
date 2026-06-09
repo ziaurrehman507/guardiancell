@@ -117,15 +117,37 @@ const Contact = () => {
 
               <div className="space-y-6">
                 <div className="flex items-start">
+                  <div className="text-2xl mr-4">🏢</div>
+                  <div>
+                    <h3 className="font-semibold text-gray-800 mb-1">Company</h3>
+                    <p className="text-gray-600">
+                      <strong>Outonoblongo - Lda.</strong><br />
+                      VAT: PT 519216792
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
                   <div className="text-2xl mr-4">📍</div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Address</h3>
                     <p className="text-gray-600">
-                      Praceta Natalia Correia n° 2, 6<br />
-                      Distrito Lisboa, Concelho Loures<br />
-                      Freguesia Santo António dos Cavaleiros e Frielas<br />
-                      2660-314 Loures, Portugal
+                      Rua Costa Pinto, Bairro Alcaide, nº 209,<br />
+                      Loja 12, P-2645-185 Alcabideche, Portugal
                     </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="text-2xl mr-4">📞</div>
+                  <div>
+                    <h3 className="font-semibold text-gray-800 mb-1">Phone</h3>
+                    <a
+                      href="tel:+351936607656"
+                      className="text-primary hover:text-secondary transition"
+                    >
+                      +351 936 607 656
+                    </a>
                   </div>
                 </div>
 
@@ -134,10 +156,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
                     <a
-                      href="mailto:guardiantel1976@gmail.com"
+                      href="mailto:blongounip@gmail.com"
                       className="text-primary hover:text-secondary transition"
                     >
-                      guardiantel1976@gmail.com
+                      blongounip@gmail.com
                     </a>
                   </div>
                 </div>

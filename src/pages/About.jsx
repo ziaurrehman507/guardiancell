@@ -25,7 +25,7 @@ const About = () => {
             <div className="text-4xl mb-4">🎯</div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Our Mission</h3>
             <p className="text-gray-600">
-              To provide quality products and exceptional shopping experiences to
+              To provide quality smartphones and exceptional shopping experiences to
               our customers.
             </p>
           </div>
@@ -55,7 +55,7 @@ const About = () => {
             <li className="flex items-start">
               <span className="text-primary mr-3">✓</span>
               <span className="text-gray-600">
-                Wide selection of quality products across multiple categories
+                Wide selection of quality smartphones across multiple brands
               </span>
             </li>
             <li className="flex items-start">
@@ -67,7 +67,7 @@ const About = () => {
             <li className="flex items-start">
               <span className="text-primary mr-3">✓</span>
               <span className="text-gray-600">
-                Secure shopping experience with trusted payment methods
+                100% authentic and genuine products
               </span>
             </li>
             <li className="flex items-start">

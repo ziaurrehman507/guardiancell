@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Guardiancell</h3>
+            <h3 className="text-xl font-bold mb-4">Outonoblongo - Lda.</h3>
             <p className="text-gray-400 text-sm">
-              Your trusted online shopping destination for quality products at great prices.
+              Your trusted online mobile store for quality smartphones at great prices.
             </p>
           </div>
 
@@ -45,18 +45,29 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-3 text-gray-400 text-sm">
               <p className="flex items-start">
+                <span className="mr-2">🏢</span>
+                <span>
+                  <strong>Company:</strong> Outonoblongo - Lda.<br />
+                  <strong>VAT:</strong> PT 519216792
+                </span>
+              </p>
+              <p className="flex items-start">
                 <span className="mr-2">📍</span>
                 <span>
-                  Praceta Natalia Correia n° 2, 6<br />
-                  Distrito Lisboa, Concelho Loures<br />
-                  Freguesia Santo António dos Cavaleiros e Frielas<br />
-                  2660-314 Loures, Portugal
+                  Rua Costa Pinto, Bairro Alcaide, nº 209,<br />
+                  Loja 12, P-2645-185 Alcabideche, Portugal
                 </span>
               </p>
               <p className="flex items-center">
+                <span className="mr-2">📞</span>
+                <a href="tel:+351936607656" className="hover:text-white transition">
+                  +351 936 607 656
+                </a>
+              </p>
+              <p className="flex items-center">
                 <span className="mr-2">📧</span>
-                <a href="mailto:guardiantel1976@gmail.com" className="hover:text-white transition">
-                  guardiantel1976@gmail.com
+                <a href="mailto:blongounip@gmail.com" className="hover:text-white transition">
+                  blongounip@gmail.com
                 </a>
               </p>
             </div>
@@ -64,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Guardiancell. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Outonoblongo - Lda. All rights reserved.</p>
         </div>
       </div>
     </footer>
