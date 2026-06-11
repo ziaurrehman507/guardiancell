@@ -47,7 +47,7 @@ const Footer = () => {
               <p className="flex items-start">
                 <span className="mr-2">🏢</span>
                 <span>
-                  <strong>Company:</strong> Outonoblongo - Lda.<br />
+                  <strong></strong> Outonoblongo - Lda.<br />
                   <strong>VAT:</strong> PT 519216792
                 </span>
               </p>
